@@ -1,5 +1,4 @@
 angular.module('userProfiles').service('mainSvc', function () {
-    this.saySomething = "I'm giving up on you";
 	this.getUsers = function() {
         var users = [
             {
